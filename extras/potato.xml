@@ -5,7 +5,7 @@
   <project name="bionic"                                     path="bionic"                                     remote="potato" />
   <project name="bootable_recovery"                          path="bootable/recovery"                          remote="potato" />
   <project name="build_blueprint"                            path="build/blueprint"                            remote="potato" />
-  <project name="build_make"                                 path="build/make"                                 remote="potato" >
+  <project name="build_make"                                 path="build/make"                                 remote="spartan" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -22,7 +22,7 @@
   <project name="device_qcom_sepolicy"                       path="device/qcom/sepolicy"                       remote="potato" />
   <project name="device_qcom_sepolicy"                       path="device/qcom/sepolicy-legacy"                remote="potato" revision="croquette-release-legacy" />
   <project name="device_qcom_sepolicy"                       path="device/qcom/sepolicy-legacy-um"             remote="potato" revision="croquette-release-legacy-um" />
-  <project name="external_sony_boringssl-compat"             path="external/sony/boringssl-compat"             remote="potato" />
+  <project name="external_sony_boringssl-compat"             path="external/sony/boringssl-compat"             remote="spartan" />
   <project name="external_selinux"                           path="external/selinux"                           remote="potato" />
   <project name="external_tinycompress"                      path="external/tinycompress"                      remote="potato" />
   <project name="frameworks_av"                              path="frameworks/av"                              remote="potato" />
@@ -38,13 +38,13 @@
   <project name="packages_apps_Launcher3"                    path="packages/apps/Launcher3"                    remote="potato" />
   <project name="packages_apps_Messaging"                    path="packages/apps/Messaging"                    remote="potato" />
   <project name="packages_apps_Nfc"                          path="packages/apps/Nfc"                          remote="potato" />
-  <project name="packages_apps_Settings"                     path="packages/apps/Settings"                     remote="potato" />
+  <project name="packages_apps_Settings"                     path="packages/apps/Settings"                     remote="spartan" />
   <project name="packages_apps_SettingsIntelligence"         path="packages/apps/SettingsIntelligence"         remote="potato" />
   <project name="system_bt"                                  path="system/bt"                                  remote="potato" />
   <project name="system_core"                                path="system/core"                                remote="potato" />
   <project name="system_sepolicy"                            path="system/sepolicy"                            remote="potato" />
   <project name="system_update_engine"                       path="system/update_engine"                       remote="potato" />
   <project name="system_vold"                                path="system/vold"                                remote="potato" />
-  <project name="vendor_potato"                              path="vendor/potato"                              remote="potato" />
+  <project name="vendor_potato"                              path="vendor/potato"                              remote="spartan" />
 
 </manifest>
